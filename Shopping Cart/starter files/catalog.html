@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/./css/bootstrap.rtl.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Store</h1>
+      <div class="bag-icon" onclick="toggleCart()">
+        👜 <span class="cart-count" id="cart-count">0</span>
+      </div>
+    </header>
+
+    <div class="main-container" id="product-list">
+      <!-- Product cards go here -->
+    </div>
+
+    <div class="cart-panel" id="cart-panel">
+      <h3>Your Cart</h3>
+      <div id="cart-items"></div>
+      <div class="cart-total" id="cart-total">Total: $0.00</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
